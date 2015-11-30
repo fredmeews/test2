@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="bootstrap/favicon.ico">
 
-    <title>Ed Hughes</title>
+    <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -48,46 +48,14 @@
     <div class="container">
 
       <div class="blog-header">
-        <h1 class="blog-title">Ed Hughes</h1>
+        <h1 class="blog-title">{{ page.title }}</h1>
         <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
       </div>
 
       <div class="row">
 
         <div class="col-sm-8 blog-main">
-	   
-            <div class="blog-post">
-            <h2 class="blog-post-title">Hello World!</h2>
-            <p class="blog-post-meta">November 02, 2015</p>
-	    <img src="/images/2015-11-02.jpg" style="max-width: 547px"</img>
-	    <p>I’m excited to get this blog thingie started. I’ll be collecting a few of the tidbits that I’ve learned over time here. And migrating my little bit of content on <a href="http://rbirnie.tumblr.com/">Tumblr</a> over here.</p>
-
-<p>My main goal of this blog is more of the under-pinnings though, I plan on testing a few different deployment methods on the site to see what works and what doesn’t. From there I hope to share with you folks (*hears crickets*)…ahem… my experiences.</p>
-
-<p>A huge thanks goes out to <a href="http://www.userobsessed.net/">Joe Fiorini</a> for the initial version of the blog. I don’t want to be too big of a pirate so I’ll eventually move away to my own design but his awesome job sure made it much easier to get up and going. ]
-o</p>
-
-	  </div><!-- /.blog-post -->
-
-
-
-            <div class="blog-post">
-            <h2 class="blog-post-title">Hello World!</h2>
-            <p class="blog-post-meta">October 28, 2015</p>
-	    <img src="/images/2015-10-28.jpg" style="max-width: 547px"</img>
-	    <p>I’m excited to get this blog thingie started. I’ll be collecting a few of the tidbits that I’ve learned over time here. And migrating my little bit of content on <a href="http://rbirnie.tumblr.com/">Tumblr</a> over here.</p>
-
-<p>My main goal of this blog is more of the under-pinnings though, I plan on testing a few different deployment methods on the site to see what works and what doesn’t. From there I hope to share with you folks (*hears crickets*)…ahem… my experiences.</p>
-
-<p>A huge thanks goes out to <a href="http://www.userobsessed.net/">Joe Fiorini</a> for the initial version of the blog. I don’t want to be too big of a pirate so I’ll eventually move away to my own design but his awesome job sure made it much easier to get up and going. ]
-o</p>
-
-	  </div><!-- /.blog-post -->
-
-
-
-
-
+	   {% include latest.html %}
 
           <nav>
             <ul class="pager">
