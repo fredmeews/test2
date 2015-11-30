@@ -3,8 +3,9 @@
  */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #555;
+/* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: "Frutiger Next", Frutiger, "Segoe UI", "Hiragino Kaku Gothic Pro", "Helvetica Neue", Helvetica, Arial, Sans-serif; 
+/*  color: #555;*/
 }
 
 h1, .h1,
