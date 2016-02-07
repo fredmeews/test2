@@ -6,3 +6,10 @@ url: http://fredmeews.github.io
 author:
   name: Ed Hughes
   email: eph123@hughes2000.com
+
+defaults:
+-
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
