@@ -26,10 +26,10 @@ layout: null
       <link href="{{ site.url }}{{ post.url }}" />
       <updated>{{ post.date | date_to_xmlschema }}</updated>
       <id>{{ site.url }}{{ post.id }}</id>
-      <content type="html">
+      <content type="html"><![CDATA[
 	<img src="{{ site.url }}/images/{{ post.image }}" style="max-width: 547px" class="webfeedsFeaturedVisual"></img>
-	{{ post.content | xml_escape }}
-      </content>
+	{{ post.content }}
+      ]]></content>
     </entry>
   {% endfor %}
 </feed>
