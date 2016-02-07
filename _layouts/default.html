@@ -21,10 +21,10 @@
     <link href="/vendor/bootstrap/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="blog.css" rel="stylesheet">
+    <link href="/blog.css" rel="stylesheet">
 
     <!-- Syntax highlighting -->
-    <link href="syntax.css" rel="stylesheet">
+    <link href="/syntax.css" rel="stylesheet">
 
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -45,28 +45,21 @@
   <body>
 
     <div class="blog-masthead">
-      <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item active" href="#">Home</a>
-          <a class="blog-nav-item" href="#">New features</a>
-          <a class="blog-nav-item" href="#">Press</a>
-          <a class="blog-nav-item" href="#">New hires</a>
-          <a class="blog-nav-item" href="#">About</a>
-        </nav>
+      <div class="blog-header">
+        <a href="/"><h1 class="blog-title">{{ site.name }}</h1></a>
+        <p class="lead blog-description">Organizing thoughts on stuff I care about - or just don't want to forget.</p>
       </div>
     </div>
 
     <div class="container">
-
-      <div class="blog-header">
-        <h1 class="blog-title">{{ page.title }}</h1>
-        <p class="lead blog-description">Organizing thoughts on stuff I care about - or just don't want to forget.</p>
-      </div>
-
       <div class="row">
-
         <div class="col-sm-8 blog-main">
-	   {% include latest.html %}
+	  {% case page.url %}
+            {% when '/' %}
+              {% include latest.html %}
+            {% else %}
+              {% include post.html %}
+            {% endcase %}
         </div><!-- /.blog-main -->
 
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
