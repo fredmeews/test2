@@ -11,8 +11,8 @@ layout: null
   <updated>{{ site.time | date_to_xmlschema }}</updated>
 
   <!-- Feedly specific -->
-  <webfeeds:icon>http://fredmeews.github.io/images/headshot.svg</webfeeds:icon>
-  <webfeeds:cover>http://fredmeews.github.io/images/headshot.png</webfeeds:cover>
+  <webfeeds:icon>{{ site.url }}/images/headshot.svg</webfeeds:icon>
+  <webfeeds:cover>{{ site.url }}/images/headshot.png</webfeeds:cover>
   
  <id>{{ site.url }}</id>
   <author>
@@ -27,7 +27,7 @@ layout: null
       <updated>{{ post.date | date_to_xmlschema }}</updated>
       <id>{{ site.url }}{{ post.id }}</id>
       <content type="html">
-	<img src="/images/{{ post.image }}" style="max-width: 547px" class="webfeedsFeaturedVisual"></img>
+	<img src="{{ site.url }}/images/{{ post.image }}" style="max-width: 547px" class="webfeedsFeaturedVisual"></img>
 	{{ post.content | xml_escape }}
       </content>
     </entry>
