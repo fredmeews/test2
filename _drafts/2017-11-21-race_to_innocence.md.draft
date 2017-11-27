@@ -1,0 +1,32 @@
+"Race to innocence"
+
+http://www.fusor.net/fuse/wp-content/uploads/2015/11/runaway.jpg
+
+* Create a shared place for Start to document everything immediately.  On my team we use a template.
+
+1. Worst - Email.  Nothing bugs me more than When an issue is in progress,
+
+2. Better - WebEx call
+
+3. Best - Wiki.  Not everyone is going to be on the call immediately, so you get the inevitable "can you catch me up on this?"
+
+http://microformats.org/wiki/wiki-better-than-email
+https://www.slideshare.net/spshow/wiki-vs-email-replyall
+
+-Avoids the "bifurcated thread"
+-PICARD (as in Captain Picard) - Problem, Impact, Cause, Analysis, Recommendation/Decision.
+
+
+Human nature - unexpected failures an ruin your day.
+
+Tips to stay out of the race...
+
+* Document everything in a shared place
+
+* Brendan Gregg -
+
+* Show your work - too many times I've been on a call where the
+
+* Avoid race phrases like "it's DEFINITELY NOT {subsystem x that I'm responsible for}".  Say... "I've checked these metrics on subsystem X... I can still check Y & Z"
+
+* 
