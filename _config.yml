@@ -23,7 +23,7 @@ github_username: fredmeews
 markdown: kramdown
 theme: minima
 show_excerpts: true
-google-analytics: UA-132332575-1
+google_analytics: UA-132332575-1
 
 plugins:
   - jekyll-feed
