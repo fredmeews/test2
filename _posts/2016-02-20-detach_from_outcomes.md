@@ -1,7 +1,11 @@
 ---
+layout: post
 title: Getting Zen about KPIs
-image: david-axelrod-obama.jpg
+date:   2016-02-20 08:23:29 -0500
+categories: leadership
 ---
+
+![Axelrod](/images/david-axelrod-obama.jpg)
 
 There's been plenty of discussion recently within my company around KPIs (Key Performance Indicators), essentially how we define success.  The question of how to measure the productivity of a software development team has been [hotly](http://martinfowler.com/bliki/CannotMeasureProductivity.html) [debated](http://jimhighsmith.com/velocity-is-killing-agility/) for years.  In general, I agree with Martin Fowler that "any true measure of software development productivity must be based on delivered business value".
 

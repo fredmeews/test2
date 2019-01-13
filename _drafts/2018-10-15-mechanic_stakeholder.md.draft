@@ -1,0 +1,28 @@
+"Empathy for Stakeholders"
+
+
+Joseph story about offshroe airline - no info, nearly caused a riot.
+
+United Airlines - if you're waiting, you're going to get maximum information. 
+
+
+I recall a project where there was a geographic and culturual breakdown between the engineering team and project stakeholders.
+
+Put yourself in their shoes.... a situation where you are heavily relying on a resolution, but are largely powerless to fix the issue.
+
+Good example is an auto mechanic... you head in & get a diagnosis on the car.  It's the flux capacitor - this is going to cost X and take Y days to fix.
+
+You're taking the mechanic at his word.... you don't really have much recourse.
+
+
+Better analogy - waiting for a flight??  
+
+Treat production incidents as airline customer service.  Nobody wants to be delayed - everyone is annoyed, but... the more information the better.
+
+For production incidents - immediately create a wiki page.  This serves a tripple purpose....
+
+1. Central collection point to solve the issue
+2. Status updates to stakeholders
+2. Root cause analysis for later
+
+Keep stakeholders in the loop - yes, start with an email announcment, but quickly push them to the wiki.

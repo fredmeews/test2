@@ -1,7 +1,10 @@
 ---
+layout: post
 title: Internal Demos for Distributed Teams
-image: bluescreen.jpg
+categories: development
 ---
+
+![Bluescreen](/images/bluescreen.jpg)
 
 There's a big difference between a polished demo for a member versus an internal demo for your team.  Internal demos should be a relaxed & low-stress since you're presenting work-in-progress to an understanding and receptive crowd.
 

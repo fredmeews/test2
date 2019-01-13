@@ -1,7 +1,10 @@
 ---
-title: 5 Tips for Tech Conferences
-image: redhat.jpg
+layout: post
+title: "5 Tips for Tech Conferences"
+categories: development
 ---
+
+![Redhat](/images/redhat.jpg)
 
 I started my career during the early days of the Internet... well
 before there existed great technical resources like Stack Overflow.
