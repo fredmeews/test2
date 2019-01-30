@@ -3,7 +3,7 @@ layout: post
 title: Explore, Expand, Extract
 ---
 
-![3X](/images/3x.png)
+<img src="/images/3x.png" alt="3x" width="500"/>
 
 In the software world, [Kent Beck](https://twitter.com/KentBeck) is an interesting guy to watch. He has a long history of taking simple ideas and combining them in ways that are fresh and highly practical for development teams. When Kent joined Facebook in 2011, he was appalled to observe that most teams were not using agile methods. In fact, much of what they were doing was more akin to waterfall processes from days of yore. 
 
