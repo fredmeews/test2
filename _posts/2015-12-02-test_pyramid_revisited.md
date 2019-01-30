@@ -5,7 +5,7 @@ date:   2015-12-02 08:23:29 -0500
 categories: development
 ---
 
-![Test Pyramid Revisited](/images/test_pyramid_revisited.png)
+<img src="/images/test_pyramid_revisited.png" alt="Test Pyramid Revisited" width="500"/>
 
 We're all familiar with the testing pyramid that says you should have more unit tests than anything else.  In my experience, this is not always correct and in fact, I find that teams will often produce higner value tests that are easier to maintain by focusing on that sweet middle layer of integration tests.
 
